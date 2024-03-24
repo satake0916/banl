@@ -1,0 +1,17 @@
+[package]
+name = "banl"
+version = "0.1.0"
+edition = "2021"
+authors = ["satake <satake.software@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "base64 encode/decode and save clipboard"
+homepage = "https://www.satake.tech/"
+repository = "https://github.com/satake0916/banl"
+keywords = ["cli", "clipboard", "demo"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+arboard = "3.3.2"
+base64 = "0.22.0"
+itertools = "0.12.1"
+seahorse = "2.2.0"
